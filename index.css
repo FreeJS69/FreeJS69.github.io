@@ -1,0 +1,71 @@
+*{
+    text-align: center;
+    margin: 0;
+}
+
+.container-fluid { 
+    min-width: 660px; 
+}
+
+.count {
+    margin: 1%;
+}
+
+.windows {
+    margin-top: 1%;
+}
+
+.answer {
+    font: 1.4em sans-serif;
+    height: 2vh;
+    margin-bottom: 5%;
+}
+
+
+.quediv {
+    font: 1.3em sans-serif;
+    line-height: 10vh;
+    border: 1px solid black;
+    height: 10vh;
+    width: 25vw;
+    margin: 1.5vw;
+}
+
+
+.quediv:hover {
+    background: rgba(255, 222, 11, 0.187);
+  }
+
+
+table {
+    margin: auto;
+;
+}
+
+.btn_style_rnd {
+    margin: 5vh;
+    padding: 2vh;
+    font: 1em sans-serif;
+}
+
+.red {
+    color: red;
+}
+
+.green {
+    color: green;
+}
+
+.activeb {
+    background: rgba(224, 144, 16, 0.465);
+}
+
+
+  button:active {
+    background: rgba(17, 116, 255, 0.375);
+  }
+
+  .jiop {
+    vertical-align: middle;
+    margin-right: 2vw;
+  }

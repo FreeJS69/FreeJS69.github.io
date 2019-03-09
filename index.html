@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: https://ssl.gstatic.com 'unsafe-eval'; style-src 'self' 'unsafe-inline'; media-src *; img-src 'self' data: content:;script-src 'self' https://cdn.jsdelivr.net/npm/vue 'unsafe-eval'">
+        <meta name="format-detection" content="telephone=no">
+        <meta name="msapplication-tap-highlight" content="no">
+        <link rel="stylesheet" type="text/css" href="css/index.css">
+        <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+        <title>Hello World</title>
+</head>
+    <body>
+
+        <div class="container-fluid">
+        <div id="vue-instance" class="app">
+                <p class="count">{{ counter }}</p>
+
+            <div class="windows">
+            <h2 class="question">{{ randomQuestion }}</h2>
+            <div class="answer" :class="color">{{ trueAnswer }}</div>
+                <table class="tablques">
+                <tbody>
+                    <tr>
+                        <td><div class="quediv" @click="getTrueAnswer(0)">{{ btnAnswer[0] }}</div></td>
+                        <td><div class="quediv" @click="getTrueAnswer(1)">{{ btnAnswer[1] }}</div></td>
+                        <td><div class="quediv" @click="getTrueAnswer(2)">{{ btnAnswer[2] }}</div></td>
+                    </tr>
+                    <tr>
+                        <td><div class="quediv" @keyup.native.enter="getTrueAnswer(3)" @click="getTrueAnswer(3)">{{ btnAnswer[3] }}</div></td>
+                        <td><div class="quediv" @keyup.native.101="getTrueAnswer(4)" @click="getTrueAnswer(4)">{{ btnAnswer[4] }}</div></td>
+                        <td><div class="quediv" @keyup.native.102="getTrueAnswer(5)" @click="getTrueAnswer(5)">{{ btnAnswer[5] }}</div></td>
+                    </tr>
+                    <tr>
+                        <td><div class="quediv" @click="getTrueAnswer(6)">{{ btnAnswer[6] }}</div></td>
+                        <td><div class="quediv" @click="getTrueAnswer(7)">{{ btnAnswer[7] }}</div></td>
+                        <td><div class="quediv" @click="getTrueAnswer(8)">{{ btnAnswer[8] }}</div></td>
+                    </tr>
+                </tbody>
+                </table>
+                <button class="btn_style_rnd" @click="getRandomQuestion">Random answer</button>
+            </div>
+            I <input type="checkbox" name="oper" v-model="chbi" value="I" class="jiop">
+            You <input type="checkbox" name="oper" v-model="chby" value="You" class="jiop">
+            We <input type="checkbox" name="oper" v-model="chbw" value="We" class="jiop">
+            They <input type="checkbox" name="oper" v-model="chbt" value="They" class="jiop">
+            He <input type="checkbox" name="oper" v-model="chbh" value="He" class="jiop">
+            She <input type="checkbox" name="oper" v-model="chbs" value="She" class="jiop">
+            
+        </div>
+
+
+
+        <script type="text/javascript" src="cordova.js"></script>
+        <script type="text/javascript" src="js/vue.min.js"></script>
+        <script type="text/javascript" src="js/bootstrap.js"></script>
+        <script type="text/javascript" src="js/index.js"></script>
+
+    </div>
+
+    </body>
+
+</html>
