@@ -6,13 +6,12 @@
         <meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: https://ssl.gstatic.com 'unsafe-eval'; style-src 'self' 'unsafe-inline'; media-src *; img-src 'self' data: content:;script-src 'self' https://cdn.jsdelivr.net/npm/vue 'unsafe-eval'">
         <meta name="format-detection" content="telephone=no">
         <meta name="msapplication-tap-highlight" content="no">
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
         <link rel="stylesheet" type="text/css" href="css/index.css">
         <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
         <title>Hello World</title>
 </head>
     <body>
-
-        <div class="container-fluid">
         <div id="vue-instance" class="app">
                 <p class="count">{{ counter }}</p>
 
@@ -22,19 +21,19 @@
                 <table class="tablques">
                 <tbody>
                     <tr>
-                        <td><div class="quediv" @click="getTrueAnswer(0)">{{ btnAnswer[0] }}</div></td>
-                        <td><div class="quediv" @click="getTrueAnswer(1)">{{ btnAnswer[1] }}</div></td>
-                        <td><div class="quediv" @click="getTrueAnswer(2)">{{ btnAnswer[2] }}</div></td>
+                        <td class="quetd"><div class="quediv" @click="getTrueAnswer(0)">{{ btnAnswer[0] }}</div></td>
+                        <td class="quetd"><div class="quediv" @click="getTrueAnswer(1)">{{ btnAnswer[1] }}</div></td>
+                        <td class="quetd"><div class="quediv" @click="getTrueAnswer(2)">{{ btnAnswer[2] }}</div></td>
                     </tr>
                     <tr>
-                        <td><div class="quediv" @keyup.native.enter="getTrueAnswer(3)" @click="getTrueAnswer(3)">{{ btnAnswer[3] }}</div></td>
-                        <td><div class="quediv" @keyup.native.101="getTrueAnswer(4)" @click="getTrueAnswer(4)">{{ btnAnswer[4] }}</div></td>
-                        <td><div class="quediv" @keyup.native.102="getTrueAnswer(5)" @click="getTrueAnswer(5)">{{ btnAnswer[5] }}</div></td>
+                        <td class="quetd"><div class="quediv" @click="getTrueAnswer(3)">{{ btnAnswer[3] }}</div></td>
+                        <td class="quetd"><div class="quediv" @click="getTrueAnswer(4)">{{ btnAnswer[4] }}</div></td>
+                        <td class="quetd"><div class="quediv" @click="getTrueAnswer(5)">{{ btnAnswer[5] }}</div></td>
                     </tr>
                     <tr>
-                        <td><div class="quediv" @click="getTrueAnswer(6)">{{ btnAnswer[6] }}</div></td>
-                        <td><div class="quediv" @click="getTrueAnswer(7)">{{ btnAnswer[7] }}</div></td>
-                        <td><div class="quediv" @click="getTrueAnswer(8)">{{ btnAnswer[8] }}</div></td>
+                        <td class="quetd"><div class="quediv" @click="getTrueAnswer(6)">{{ btnAnswer[6] }}</div></td>
+                        <td class="quetd"><div class="quediv" @click="getTrueAnswer(7)">{{ btnAnswer[7] }}</div></td>
+                        <td class="quetd"><div class="quediv" @click="getTrueAnswer(8)">{{ btnAnswer[8] }}</div></td>
                     </tr>
                 </tbody>
                 </table>
@@ -55,9 +54,5 @@
         <script type="text/javascript" src="js/vue.min.js"></script>
         <script type="text/javascript" src="js/bootstrap.js"></script>
         <script type="text/javascript" src="js/index.js"></script>
-
-    </div>
-
     </body>
-
 </html>
