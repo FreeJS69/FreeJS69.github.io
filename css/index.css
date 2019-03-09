@@ -3,10 +3,6 @@
     margin: 0;
 }
 
-.container-fluid { 
-    min-width: 660px; 
-}
-
 .count {
     margin: 1%;
 }
@@ -16,19 +12,22 @@
 }
 
 .answer {
-    font: 1.4em sans-serif;
+    font: 1.2em sans-serif;
     height: 2vh;
-    margin-bottom: 5%;
+    margin-bottom: 2%;
 }
 
 
 .quediv {
     font: 1.3em sans-serif;
-    line-height: 10vh;
-    border: 1px solid black;
-    height: 10vh;
-    width: 25vw;
-    margin: 1.5vw;
+    line-height: 60px;
+    border: 1px solid gray;
+    height: 60px;
+    margin: 20px;
+}
+
+.quetd {
+    width: 220px;
 }
 
 
@@ -43,6 +42,7 @@ table {
 }
 
 .btn_style_rnd {
+
     margin: 5vh;
     padding: 2vh;
     font: 1em sans-serif;
