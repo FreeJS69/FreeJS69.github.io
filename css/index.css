@@ -12,22 +12,22 @@
 }
 
 .answer {
-    font: 1.2em sans-serif;
+    font: 1em sans-serif;
     height: 2vh;
     margin-bottom: 2%;
 }
 
 
 .quediv {
-    font: 1.3em sans-serif;
-    line-height: 60px;
+    font: 1em sans-serif;
+    line-height: 50px;
     border: 1px solid gray;
-    height: 60px;
+    height: 50px;
     margin: 10px;
 }
 
 .quetd {
-    width: 25vw;
+    width: 24vw;
 }
 
 
