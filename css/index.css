@@ -3,6 +3,101 @@
     margin: 0;
 }
 
+
+
+@media screen and (min-width: 1280px) {
+    .question {
+        font: bold 1.7em sans-serif;
+    }
+    .quediv {
+        font: 1.5em sans-serif;
+        line-height: 80px;
+        border: 1px solid gray;
+        height: 80px;
+        width: 200px;
+        margin: 20px;
+    }
+}
+
+@media screen and (min-width: 960px) and (max-width: 1279px) {
+    .question {
+        font: bold 1.5em sans-serif;
+    }
+    .quediv {
+        font: 1.3em sans-serif;
+        line-height: 70px;
+        border: 1px solid gray;
+        height: 70px;
+        width: 180px;
+        margin: 16px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 959px) {
+    .question {
+        font: bold 1.3em sans-serif;
+    }
+    .quediv {
+        font: 1.1em sans-serif;
+        line-height: 60px;
+        border: 1px solid gray;
+        height: 60px;
+        width: 160px;
+        margin: 12px;
+    }
+}
+
+@media screen and (min-width: 480px) and (max-width: 767px) {
+    .question {
+        font: bold 1.1em sans-serif;
+    }
+    .quediv {
+        font: 0.9em sans-serif;
+        line-height: 44px;
+        border: 1px solid gray;
+        height: 44px;
+        width: 130px;
+        margin: 8px;
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 479px) {
+    .question {
+        font: bold 1em sans-serif;
+    }
+    .quediv {
+        font: 0.7em sans-serif;
+        line-height: 40px;
+        border: 1px solid gray;
+        height: 40px;
+        width: 95px;
+        margin: 5px;
+    }
+}
+
+@media screen and (max-width: 319px) {
+    .question {
+        font: bold 0.8em sans-serif;
+    }
+    .quediv {
+        font: 0.5em sans-serif;
+        line-height: 30px;
+        border: 1px solid gray;
+        height: 30px;
+        width: 70px;
+        margin: 4px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
 .count {
     margin: 1%;
 }
@@ -12,23 +107,11 @@
 }
 
 .answer {
-    font: 0.9em sans-serif;
-    height: 2vh;
-    margin-bottom: 2%;
+    font: 1em sans-serif;
+    height: 1vh;
+    margin-bottom: 5%;
 }
 
-
-.quediv {
-    font: 0.8em sans-serif;
-    line-height: 45px;
-    border: 1px solid gray;
-    height: 45px;
-    margin: 0.5%;
-}
-
-.quetd {
-    width: 33vw;
-}
 
 
 .quediv:hover {
