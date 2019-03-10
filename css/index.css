@@ -20,14 +20,14 @@
 
 .quediv {
     font: 0.8em sans-serif;
-    line-height: 50px;
+    line-height: 45px;
     border: 1px solid gray;
-    height: 50px;
-    margin: 1%;
+    height: 45px;
+    margin: 0.5%;
 }
 
 .quetd {
-    width: 31vw;
+    width: 32vw;
 }
 
 
